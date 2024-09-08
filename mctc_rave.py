@@ -11,7 +11,7 @@ class MCTS:
         self.N = defaultdict(int)  # total visit count for each node
         self.RAVE_Q = defaultdict(int)  # total reward for RAVE
         self.RAVE_N = defaultdict(int)  # visit count for RAVE
-        self.children = dict()  # children of each node
+        self.children = dict()  # children of each node dfdsfsdfsfsdf
         self.exploration_weight = exploration_weight
         self.rave_factor = rave_factor
         self.last_good_reply = {}
